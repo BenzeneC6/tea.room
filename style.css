@@ -1,0 +1,151 @@
+body {
+   font-family: Helvetica, sans-serif; 
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+}
+   /*The header*/
+.header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid seashell;
+      height: 69px;
+}
+
+.header img {
+    display: flex;
+    justify-content: flex-start;
+    height: 35px;
+    margin-left: 10px;
+}
+
+nav {
+      display: flex;
+      
+}
+
+nav a {
+    margin-left: 10px;
+    color: seashell;
+}
+   /*mission section*/
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    text-align: center;
+    height: 700px;
+    width: 100%;
+}
+
+.sec {
+    text-align: center;
+    background-color: black;
+    flex-grow: 3;
+}
+
+.our, .hand {
+    margin: 0;
+}
+/*Tea section*/
+.teaMonth {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.middle {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 10px;
+}
+
+.midSec {
+      display: inline-flex;
+      justify-content: space-around;
+}
+
+.midSec img {
+      height: 200px;
+      width: 300px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+}
+
+.botSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+      height: 200px;
+      width: 300px;
+}
+
+figure {
+     display: inline-block;
+     text-align: center;
+}
+
+figcaption {
+    display: block;
+}
+ /*Location Section*/
+.location {
+      background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+      height: 500px;
+      margin-top: 55px;
+}
+
+.h4 {
+      margin-top: 100px;
+}
+
+.vLo {
+    display: flex;
+    justify-content: center;
+}
+
+.lCol {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    line-height: 45px;
+}
+
+.mCol {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    line-height: 45px;
+}
+
+.rCol {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+    line-height: 45px;
+}
+/*Footer session*/
+.footer {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+}
